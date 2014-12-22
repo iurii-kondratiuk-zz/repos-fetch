@@ -1,4 +1,4 @@
-var Application = (function($, ApplicationView){
+var Application = (function(ApplicationView){
 
     return function () {
         this.initialize = function() {
@@ -6,4 +6,4 @@ var Application = (function($, ApplicationView){
         };
     }
 
-})(jQuery, ApplicationView);
+})(ApplicationView);
